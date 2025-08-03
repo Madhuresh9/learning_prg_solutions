@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   let colors = [];
 
-  const ItemName = { Name: "Cognizant", Rent: 50000, Address: 'Denver' };
+  const ItemName = { Name: "Cognizant", Rent: 40000, Address: 'Chennai' };
 
   if (ItemName.Rent <= 60000) {
     colors.push('textRed');
